@@ -1,0 +1,19 @@
+*,
+body,
+html,
+button,
+input,
+textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	background: none;
+	line-height: 1;
+	font-size: 1rem;
+	font-family: sans-serif;
+}
+
+button {
+	cursor: pointer;
+}

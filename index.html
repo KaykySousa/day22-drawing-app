@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Day 22 - Drawing App</title>
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/index.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="canvas-container">
+				<canvas class="canvas">
+					The browser does not support canvas.
+				</canvas>
+				<div class="tools">
+					<button data-tool="brush" class="selected">
+						<img src="./assets/brush-icon.svg" alt="Brush" />
+					</button>
+					<button data-tool="eraser">
+						<img src="./assets/eraser-icon.svg" alt="Eraser" />
+					</button>
+					<button class="clear-button">
+						<img src="./assets/clearall-icon.svg" alt="Clear all" />
+					</button>
+					<input type="color" class="input-color" />
+					<input
+						type="range"
+						min="1"
+						max="20"
+						step="1"
+						value="5"
+						class="input-brush-size"
+					/>
+				</div>
+			</div>
+			<div class="contacts">
+				<p>Developed by: Kayky de Sousa</p>
+				<p>
+					<a
+						href="https://www.linkedin.com/in/kayky-de-sousa/"
+						className="hover:underline"
+					>
+						Linkedin
+					</a>
+					|
+					<a
+						href="https://github.com/KaykySousa"
+						className="hover:underline"
+					>
+						Github
+					</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
